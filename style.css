@@ -1,0 +1,56 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 956px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 86px;
+  padding-right: 86px;
+}
+
+/*HEADER*/
+.eats {
+  color: #57ad56;
+  padding-left: 10px;
+}
+header {
+  box-shadow: -7px 24px 33px -12px #d6d6d6; /* тень снизу*/
+}
+.logo {
+  padding: 30px;
+  display: flex;
+  font-size: 12px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.buttom_inner{
+    padding: 26.5px 0;
+}
+a.buttom {
+  font-size: 12px;
+  color: #000; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #fff; /* фон кнопки */
+  padding: 14px 20px; /* отступ от текста */
+  border: 1px solid #E0E0E0; /* граница*/
+  border-radius: 3px; /* скругление границы*/
+}
+a.buttom:hover {
+  background: #d6d6d6;;
+} /* при наведении курсора мышки */
+
+
+.buttomBasket {
+  display: flex;
+}
+.basket {
+  padding-top: 25px;
+  padding-left: 27px;
+}
