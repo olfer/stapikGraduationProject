@@ -21,18 +21,17 @@ header {
   height: 72px;
 }
 
-.logo{
+.logo {
   padding-top: 10px;
 }
 .header__inner {
   display: flex;
   justify-content: space-between;
- 
+
   padding-top: 11px;
 }
 .buttom_inner {
   display: flex;
-  
 }
 a.buttomEnter {
   font-size: 12px;
@@ -95,3 +94,51 @@ figcaption {
   background: #fafafa;
 }
 /*FOOTER*/
+footer {
+  background-color: #262626;
+  padding-top: 70px;
+}
+.footer__logo {
+  padding-bottom: 40px;
+}
+
+.fotter__hr {
+  background-color: #7d7d7d;
+}
+.usefuLinks{
+  padding-bottom: 20px;
+}
+.footer__link {
+  
+  color: white;
+  text-decoration: none !important;
+}
+.footer__link:hover {
+  color: #57ad56;
+}
+.fotter__nav {
+  display: flex;
+}
+.hashtag {
+  color: #57ad56;
+}
+.footer__hashtag {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  text-decoration: none !important;
+}
+.hashtag__inner {
+  color: white;
+}
+.app__link {
+  padding: 40px 0;
+  text-align: center;
+}
+.termsOfUse{
+  padding-bottom: 40px;
+  display: flex;
+}
+.appStore{
+  padding-right: 40px;
+}
