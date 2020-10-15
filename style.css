@@ -7,8 +7,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   max-width: 956px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -19,18 +18,21 @@ body {
 }
 header {
   box-shadow: -7px 24px 33px -12px #d6d6d6; /* тень снизу*/
+  height: 72px;
 }
-.logo {
-  padding: 30px 0;
-  display: flex;
-  font-size: 12px;
+
+.logo{
+  padding-top: 10px;
 }
 .header__inner {
   display: flex;
   justify-content: space-between;
+ 
+  padding-top: 11px;
 }
 .buttom_inner {
-  padding: 26.5px 0;
+  display: flex;
+  
 }
 a.buttomEnter {
   font-size: 12px;
@@ -49,7 +51,7 @@ a.buttomEnter:hover {
   display: flex;
 }
 .basket {
-  padding-top: 25px;
+  display: flex;
   padding-left: 27px;
 }
 
@@ -61,35 +63,35 @@ a.buttomEnter:hover {
   width: 100%;
   border: none;
   border-bottom: #e0e0e0 solid 1px;
-  
 }
 .search input:focus {
   outline: none;
   border-bottom: #e0e0e0 solid 1px;
 }
 
-.restaurantsLogo{
-  font-size:  22px;
+.restaurantsLogo {
+  font-size: 22px;
 }
 
 /*restaurants*/
-.dishes{
+.dishes {
   font-size: 14px;
-  color: #626262;;
+  color: #626262;
 }
-.waitingTime{
+.waitingTime {
   font-size: 13px;
 }
-.restaurants{
+.restaurants {
   display: flex;
   flex-wrap: wrap;
 }
-figcaption{
+figcaption {
   padding: 20px 0;
 }
-.main__list{
-  margin-right: 6px;
+.main__list {
+  margin-left: -8px;
 }
-.main__list:hover{
-  background: #FAFAFA;
+.main__list:hover {
+  background: #fafafa;
 }
+/*FOOTER*/
