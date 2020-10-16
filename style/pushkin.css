@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  color: #1D1D1D;
+  color: #1d1d1d;
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
@@ -56,14 +56,29 @@ a.buttomEnter:hover {
 
 /*preview*/
 .preview {
+  padding: 80px 0;
   background-size: cover;
 }
 .preview__logo {
-  padding-top: 80px;
+  background-color: #fff;
+  padding-top: 38px;
+  border-radius: 3px;
+}
+.preview__name {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.dishes {
+  font-size: 14px;
+  line-height: 16px;
+  color: #626262;
 }
 .dishes-waitingTime {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-bottom: 40px;
 }
 
 .preview__waitingTime {
@@ -93,6 +108,13 @@ a.buttomEnter:hover {
 }
 
 /*snacks*/
+.main__list{
+  margin-bottom: 50px;
+  margin-right: 18px;
+}
+.main__list:hover {
+  background-color: #fafafa;
+}
 .snacks {
   padding: 56px 0 80px 0;
 }
@@ -100,29 +122,45 @@ a.buttomEnter:hover {
   font-size: 22px;
   padding-bottom: 32px;
 }
-figure{
-    margin: 0;
-    padding-left: 60px;
+figure {
+  margin: 0;
+  
+  
+}
+figure img{
+  text-align: right;
 }
 
-.card__snacks {
-  float: left;
-}
 .row {
   display: flex;
   border: 1px solid #e3e3e3;
-}
-.ingredients{
-    font-size: 13px;
-    color: #626262;
-}
-.price{
-    padding-top: 58px;
-    font-size: 15px;
-}
-.cards{
-    display: flex;
-    flex-wrap: wrap;
+  
 }
 
-
+.column{
+  padding: 16px 0 16px 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction:column;
+}
+.ingredients {
+  font-size: 13px;
+  color: #626262;
+  
+}
+.price {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.dishes{
+  padding-top: 9px;
+}
+.padding{
+  padding: 0 10px 10px 0;
+}
