@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Трактир «Пушкин»</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css"
+    />
+    <link rel="stylesheet" href="style/pushkin.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header__inner">
+          <div class="logo">
+            <img src="img/logo.svg" alt="" />
+          </div>
+          <div class="buttomBasket">
+            <div class="buttom_inner">
+              <a href="#" class="buttomEnter">Войти</a>
+            </div>
+            <div class="basket">
+              <a href="#" class="buttomBasket">
+                <img src="img/basket.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+      class="preview"
+      style="background-image: url('img/mainPushkin.png')"
+    >
+      <div class="container">
+        <div class="col-xs-12 col-md-7 col-lg-5">
+          <div class="preview__logo">
+            <div>Трактир «Пушкин»</div>
+            <div class="dishes-waitingTime">
+              <div>₽₽₽ • Европейская</div>
+              <div class="preview__waitingTime">40 - 50 мин</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="nav container">
+      <a class="nav__link" href="#">Закуски</a>
+      <a class="nav__link" href="#">Салаты</a>
+      <a class="nav__link" href="#">Супы</a>
+      <a class="nav__link" href="#">Горячие блюда</a>
+      <a class="nav__link" href="#">Гарниры</a>
+      <a class="nav__link" href="#">Десерты</a>
+    </section>
+    <hr class="nav__hr" />
+    <!--SNACKS -->
+    <section class="snacks">
+      <div class="container">
+        <div class="snacks__logo">Закуски</div>
+      </div>
+      <div class="container cards">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 row">
+          <div>
+            <div class="dish">
+              <div>Сельдь на бородинском хлебе</div>
+              <div class="ingredients">С яйцом и огурцом</div>
+            </div>
+            <div class="price">240 ₽</div>
+          </div>
+          <figure class="cadr__snacks">
+            <img
+              src="img/Сельдь на бородинском хлебе.png"
+              alt="Сельдь на бородинском хлебе"
+            />
+          </figure>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 row">
+            <div>
+                <div>Соленья ассорти</div>
+              <div class="price">320 ₽</div>
+            </div>
+            <figure class="cadr__snacks">
+              <img
+                src="img/Соленья ассорти.png"
+                alt="Соленья ассорти"
+              />
+            </figure>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 row">
+            <div>
+                <div>Грибы маринованные</div>
+              <div class="price">300 ₽</div>
+            </div>
+            <figure class="cadr__snacks">
+              <img
+                src="img/Грибы маринованные.png"
+                alt="Грибы маринованные"
+              />
+            </figure>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 row">
+            <div>
+                <div>Сало домашнее с горчицей</div>
+              <div class="price">320 ₽</div>
+            </div>
+            <figure class="cadr__snacks">
+              <img
+                src="img/Сало домашнее с горчицей.png"
+                alt="Сало домашнее с горчицей"
+              />
+            </figure>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 row">
+            <div>
+                <div>Малосольная семга</div>
+              <div class="price">390 ₽</div>
+            </div>
+            <figure class="cadr__snacks">
+              <img
+                src="img/Малосольная семга.png"
+                alt="Малосольная семга"
+              />
+            </figure>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 row">
+            <div>
+                <div>Язык говяжий с хреном</div>
+              <div class="price">350 ₽</div>
+            </div>
+            <figure class="cadr__snacks">
+              <img
+                src="img/Язык говяжий с хреном.png"
+                alt="Язык говяжий с хреном"
+              />
+            </figure>
+          </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 956px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*HEADER*/
+.eats {
+  color: #57ad56;
+  padding-left: 10px;
+}
+header {
+  box-shadow: -7px 24px 33px -12px #d6d6d6; /* тень снизу*/
+  height: 72px;
+}
+
+.logo {
+  padding-top: 10px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 11px;
+}
+.buttom_inner {
+  display: flex;
+}
+a.buttomEnter {
+  font-size: 12px;
+  color: #000; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #fff; /* фон кнопки */
+  padding: 14px 20px; /* отступ от текста */
+  border: 1px solid #e0e0e0; /* граница*/
+  border-radius: 3px; /* скругление границы*/
+}
+a.buttomEnter:hover {
+  background: #d6d6d6; /* при наведении курсора мышки */
+}
+.buttomBasket {
+  display: flex;
+}
+.basket {
+  display: flex;
+  padding-left: 27px;
+}
+
+/* SEARCH */
+.search {
+  padding: 56px 0;
+}
+.search input {
+  width: 100%;
+  border: none;
+  border-bottom: #e0e0e0 solid 1px;
+}
+.search input:focus {
+  outline: none;
+  border-bottom: #e0e0e0 solid 1px;
+}
+
+.restaurantsLogo {
+  font-size: 22px;
+}
+
+/*restaurants*/
+.link__pushkin{
+  color: #000;
+  text-decoration: none!important;
+}
+
+.link__pushkin:hover {
+  color: #000;
+}
+.dishes {
+  font-size: 14px;
+  color: #626262;
+}
+.waitingTime {
+  font-size: 13px;
+}
+.restaurants {
+  display: flex;
+  flex-wrap: wrap;
+}
+figcaption {
+  padding: 20px 0;
+}
+.main__list {
+  margin-left: -8px;
+}
+.main__list:hover {
+  background: #fafafa;
+}
+/*FOOTER*/
+footer {
+  background-color: #262626;
+  padding-top: 70px;
+}
+.footer__logo {
+  padding-bottom: 40px;
+}
+
+.fotter__hr {
+  background-color: #7d7d7d;
+}
+.usefuLinks{
+  padding-bottom: 20px;
+}
+.footer__link {
+  
+  color: white;
+  text-decoration: none !important;
+}
+.footer__link:hover {
+  color: #57ad56;
+}
+.fotter__nav {
+  display: flex;
+}
+.hashtag {
+  color: #57ad56;
+}
+.footer__hashtag {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  text-decoration: none !important;
+}
+.hashtag__inner {
+  color: white;
+}
+.app__link {
+  padding: 40px 0;
+  text-align: center;
+}
+.termsOfUse{
+  padding-bottom: 40px;
+  display: flex;
+}
+.appStore{
+  padding-right: 40px;
+}
